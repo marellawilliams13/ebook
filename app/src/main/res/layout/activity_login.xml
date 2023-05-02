@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/shape_toolbar01"
+        android:id="@+id/rlToolbar">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/ivLogo"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHeader"
+            android:layout_below="@+id/ivLogo"
+            android:layout_marginTop="10dp"
+            android:text="Sign in to access the Ebook content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"/>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/etEmail"
+                android:hint="Enter Your Email Address"
+                android:background="@drawable/shape_edittext01"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/Gray"
+                android:textColor="@color/Black" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/etPass"
+                android:hint="Enter Your Password"
+                android:background="@drawable/shape_edittext01"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:layout_below="@+id/etEmail"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/Gray"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvForgotPass"
+                android:layout_below="@+id/etPass"
+                android:padding="5dp"
+                android:text="Forgot Password?"
+                android:textColor="@color/Gray"
+                android:clickable="true"
+                android:gravity="end"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLogin"
+                android:layout_below="@+id/tvForgotPass"
+                android:layout_marginTop="60dp"
+                android:text="Login"
+                android:textSize="18dp"
+                android:background="@drawable/shape_button01"
+                android:textColor="@color/White"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRegister"
+                android:layout_below="@+id/btnLogin"
+                android:layout_marginTop="60dp"
+                android:text="Register Here"
+                android:textSize="18dp"
+                android:background="@drawable/shape_button02"
+                android:textColor="@color/Black"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

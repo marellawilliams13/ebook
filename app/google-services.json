@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "351228687055",
+    "firebase_url": "https://ebook-learning-3281c-default-rtdb.firebaseio.com",
+    "project_id": "ebook-learning-3281c",
+    "storage_bucket": "ebook-learning-3281c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351228687055:android:32d11318b579ba5dac7dba",
+        "android_client_info": {
+          "package_name": "com.apps.W9598404.ebooklearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351228687055-htn92ed3o6i589crmasf40h3ndeg3ia6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.W9598404.ebooklearning",
+            "certificate_hash": "8088ec8091894a8866b1624cb1a286ed67235f04"
+          }
+        },
+        {
+          "client_id": "351228687055-8hp3v8j5dcdkpat6noc97n4ffbpc11hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOuAabVBSZdjf4ZOQ378GcTxZw1zT0k48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351228687055-8hp3v8j5dcdkpat6noc97n4ffbpc11hn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
